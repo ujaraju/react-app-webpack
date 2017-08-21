@@ -1,0 +1,23 @@
+html,
+body {
+  background: red; }
+
+p {
+  -webkit-animation: hubble 3s infinite;
+  animation: hubble 3s infinite; }
+
+@-webkit-keyframes hubble {
+  0% {
+    color: #f1f1f1; }
+  50% {
+    color: red; }
+  100% {
+    color: #fff; } }
+
+@keyframes hubble {
+  0% {
+    color: #f1f1f1; }
+  50% {
+    color: red; }
+  100% {
+    color: #fff; } }

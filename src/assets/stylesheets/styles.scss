@@ -1,0 +1,21 @@
+$variable: red;
+html,
+body {
+    background: $variable;
+}
+
+p {
+    animation: bubble 3s infinite;
+}
+
+@keyframes bubble {
+    0% {
+        color: #f1f1f1;
+    }
+    50% {
+        color: $variable;
+    }
+    100% {
+        color: #fff;
+    }
+}
